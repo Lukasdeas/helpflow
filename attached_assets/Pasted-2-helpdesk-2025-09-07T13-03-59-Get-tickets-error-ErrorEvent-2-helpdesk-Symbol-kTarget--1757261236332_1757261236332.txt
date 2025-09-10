@@ -1,0 +1,315 @@
+2|helpdesk  | 2025-09-07T13:03:59: Get tickets error: ErrorEvent {
+2|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+2|helpdesk  |     _events: [Object: null prototype] {
+2|helpdesk  |       error: [Function],
+2|helpdesk  |       message: [Function],
+2|helpdesk  |       close: [Function],
+2|helpdesk  |       open: [Function]
+2|helpdesk  |     },
+2|helpdesk  |     _eventsCount: 4,
+2|helpdesk  |     _maxListeners: undefined,
+2|helpdesk  |     _binaryType: 'arraybuffer',
+2|helpdesk  |     _closeCode: 1006,
+2|helpdesk  |     _closeFrameReceived: false,
+2|helpdesk  |     _closeFrameSent: false,
+2|helpdesk  |     _closeMessage: <Buffer >,
+2|helpdesk  |     _closeTimer: null,
+2|helpdesk  |     _errorEmitted: true,
+2|helpdesk  |     _extensions: {},
+2|helpdesk  |     _paused: false,
+2|helpdesk  |     _protocol: '',
+2|helpdesk  |     _readyState: 3,
+2|helpdesk  |     _receiver: null,
+2|helpdesk  |     _sender: null,
+2|helpdesk  |     _socket: null,
+2|helpdesk  |     _bufferedAmount: 0,
+2|helpdesk  |     _isServer: false,
+2|helpdesk  |     _redirects: 0,
+2|helpdesk  |     _autoPong: true,
+2|helpdesk  |     _url: 'wss://localhost/v2',
+2|helpdesk  |     _req: null,
+2|helpdesk  |     [Symbol(shapeMode)]: false,
+2|helpdesk  |     [Symbol(kCapture)]: false
+2|helpdesk  |   },
+2|helpdesk  |   [Symbol(kType)]: 'error',
+2|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+2|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+2|helpdesk  |     errno: -111,
+2|helpdesk  |     code: 'ECONNREFUSED',
+2|helpdesk  |     syscall: 'connect',
+2|helpdesk  |     address: '127.0.0.1',
+2|helpdesk  |     port: 443
+2|helpdesk  |   },
+2|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+2|helpdesk  | }
+2|helpdesk  | 2025-09-07T13:03:59: 1:03:59 PM [express] GET /api/tickets 500 in 213ms :: {"error":"Internal server error"}
+3|helpdesk  | 2025-09-07T13:04:11: Login error: ErrorEvent {
+3|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+3|helpdesk  |     _events: [Object: null prototype] {
+3|helpdesk  |       error: [Function],
+3|helpdesk  |       message: [Function],
+3|helpdesk  |       close: [Function],
+3|helpdesk  |       open: [Function]
+3|helpdesk  |     },
+3|helpdesk  |     _eventsCount: 4,
+3|helpdesk  |     _maxListeners: undefined,
+3|helpdesk  |     _binaryType: 'arraybuffer',
+3|helpdesk  |     _closeCode: 1006,
+3|helpdesk  |     _closeFrameReceived: false,
+3|helpdesk  |     _closeFrameSent: false,
+3|helpdesk  |     _closeMessage: <Buffer >,
+3|helpdesk  |     _closeTimer: null,
+3|helpdesk  |     _errorEmitted: true,
+3|helpdesk  |     _extensions: {},
+3|helpdesk  |     _paused: false,
+3|helpdesk  |     _protocol: '',
+3|helpdesk  |     _readyState: 3,
+3|helpdesk  |     _receiver: null,
+3|helpdesk  |     _sender: null,
+3|helpdesk  |     _socket: null,
+3|helpdesk  |     _bufferedAmount: 0,
+3|helpdesk  |     _isServer: false,
+3|helpdesk  |     _redirects: 0,
+3|helpdesk  |     _autoPong: true,
+3|helpdesk  |     _url: 'wss://localhost/v2',
+3|helpdesk  |     _req: null,
+3|helpdesk  |     [Symbol(shapeMode)]: false,
+3|helpdesk  |     [Symbol(kCapture)]: false
+3|helpdesk  |   },
+3|helpdesk  |   [Symbol(kType)]: 'error',
+3|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+3|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+3|helpdesk  |     errno: -111,
+3|helpdesk  |     code: 'ECONNREFUSED',
+3|helpdesk  |     syscall: 'connect',
+3|helpdesk  |     address: '127.0.0.1',
+3|helpdesk  |     port: 443
+3|helpdesk  |   },
+3|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+3|helpdesk  | }
+3|helpdesk  | 2025-09-07T13:04:11: 1:04:11 PM [express] POST /api/auth/login 500 in 134ms :: {"error":"Internal server error"}
+0|helpdesk  | 2025-09-07T13:04:48: Login error: ErrorEvent {
+0|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+0|helpdesk  |     _events: [Object: null prototype] {
+0|helpdesk  |       error: [Function],
+0|helpdesk  |       message: [Function],
+0|helpdesk  |       close: [Function],
+0|helpdesk  |       open: [Function]
+0|helpdesk  |     },
+0|helpdesk  |     _eventsCount: 4,
+0|helpdesk  |     _maxListeners: undefined,
+0|helpdesk  |     _binaryType: 'arraybuffer',
+0|helpdesk  |     _closeCode: 1006,
+0|helpdesk  |     _closeFrameReceived: false,
+0|helpdesk  |     _closeFrameSent: false,
+0|helpdesk  |     _closeMessage: <Buffer >,
+0|helpdesk  |     _closeTimer: null,
+0|helpdesk  |     _errorEmitted: true,
+0|helpdesk  |     _extensions: {},
+0|helpdesk  |     _paused: false,
+0|helpdesk  |     _protocol: '',
+0|helpdesk  |     _readyState: 3,
+0|helpdesk  |     _receiver: null,
+0|helpdesk  |     _sender: null,
+0|helpdesk  |     _socket: null,
+0|helpdesk  |     _bufferedAmount: 0,
+0|helpdesk  |     _isServer: false,
+0|helpdesk  |     _redirects: 0,
+0|helpdesk  |     _autoPong: true,
+0|helpdesk  |     _url: 'wss://localhost/v2',
+0|helpdesk  |     _req: null,
+0|helpdesk  |     [Symbol(shapeMode)]: false,
+0|helpdesk  |     [Symbol(kCapture)]: false
+0|helpdesk  |   },
+0|helpdesk  |   [Symbol(kType)]: 'error',
+0|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+0|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+0|helpdesk  |     errno: -111,
+0|helpdesk  |     code: 'ECONNREFUSED',
+0|helpdesk  |     syscall: 'connect',
+0|helpdesk  |     address: '127.0.0.1',
+0|helpdesk  |     port: 443
+0|helpdesk  |   },
+0|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+0|helpdesk  | }
+0|helpdesk  | 2025-09-07T13:04:48: 1:04:48 PM [express] POST /api/auth/login 500 in 122ms :: {"error":"Internal server error"}
+1|helpdesk  | 2025-09-07T13:04:56: Get tickets error: ErrorEvent {
+1|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+1|helpdesk  |     _events: [Object: null prototype] {
+1|helpdesk  |       error: [Function],
+1|helpdesk  |       message: [Function],
+1|helpdesk  |       close: [Function],
+1|helpdesk  |       open: [Function]
+1|helpdesk  |     },
+1|helpdesk  |     _eventsCount: 4,
+1|helpdesk  |     _maxListeners: undefined,
+1|helpdesk  |     _binaryType: 'arraybuffer',
+1|helpdesk  |     _closeCode: 1006,
+1|helpdesk  |     _closeFrameReceived: false,
+1|helpdesk  |     _closeFrameSent: false,
+1|helpdesk  |     _closeMessage: <Buffer >,
+1|helpdesk  |     _closeTimer: null,
+1|helpdesk  |     _errorEmitted: true,
+1|helpdesk  |     _extensions: {},
+1|helpdesk  |     _paused: false,
+1|helpdesk  |     _protocol: '',
+1|helpdesk  |     _readyState: 3,
+1|helpdesk  |     _receiver: null,
+1|helpdesk  |     _sender: null,
+1|helpdesk  |     _socket: null,
+1|helpdesk  |     _bufferedAmount: 0,
+1|helpdesk  |     _isServer: false,
+1|helpdesk  |     _redirects: 0,
+1|helpdesk  |     _autoPong: true,
+1|helpdesk  |     _url: 'wss://localhost/v2',
+1|helpdesk  |     _req: null,
+1|helpdesk  |     [Symbol(shapeMode)]: false,
+1|helpdesk  |     [Symbol(kCapture)]: false
+1|helpdesk  |   },
+1|helpdesk  |   [Symbol(kType)]: 'error',
+1|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+1|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+1|helpdesk  |     errno: -111,
+1|helpdesk  |     code: 'ECONNREFUSED',
+1|helpdesk  |     syscall: 'connect',
+1|helpdesk  |     address: '127.0.0.1',
+1|helpdesk  |     port: 443
+1|helpdesk  |   },
+1|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+1|helpdesk  | }
+1|helpdesk  | 2025-09-07T13:04:56: 1:04:56 PM [express] GET /api/tickets 500 in 151ms :: {"error":"Internal server error"}
+2|helpdesk  | 2025-09-07T13:05:09: Create ticket error: ErrorEvent {
+2|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+2|helpdesk  |     _events: [Object: null prototype] {
+2|helpdesk  |       error: [Function],
+2|helpdesk  |       message: [Function],
+2|helpdesk  |       close: [Function],
+2|helpdesk  |       open: [Function]
+2|helpdesk  |     },
+2|helpdesk  |     _eventsCount: 4,
+2|helpdesk  |     _maxListeners: undefined,
+2|helpdesk  |     _binaryType: 'arraybuffer',
+2|helpdesk  |     _closeCode: 1006,
+2|helpdesk  |     _closeFrameReceived: false,
+2|helpdesk  |     _closeFrameSent: false,
+2|helpdesk  |     _closeMessage: <Buffer >,
+2|helpdesk  |     _closeTimer: null,
+2|helpdesk  |     _errorEmitted: true,
+2|helpdesk  |     _extensions: {},
+2|helpdesk  |     _paused: false,
+2|helpdesk  |     _protocol: '',
+2|helpdesk  |     _readyState: 3,
+2|helpdesk  |     _receiver: null,
+2|helpdesk  |     _sender: null,
+2|helpdesk  |     _socket: null,
+2|helpdesk  |     _bufferedAmount: 0,
+2|helpdesk  |     _isServer: false,
+2|helpdesk  |     _redirects: 0,
+2|helpdesk  |     _autoPong: true,
+2|helpdesk  |     _url: 'wss://localhost/v2',
+2|helpdesk  |     _req: null,
+2|helpdesk  |     [Symbol(shapeMode)]: false,
+2|helpdesk  |     [Symbol(kCapture)]: false
+2|helpdesk  |   },
+2|helpdesk  |   [Symbol(kType)]: 'error',
+2|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+2|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+2|helpdesk  |     errno: -111,
+2|helpdesk  |     code: 'ECONNREFUSED',
+2|helpdesk  |     syscall: 'connect',
+2|helpdesk  |     address: '127.0.0.1',
+2|helpdesk  |     port: 443
+2|helpdesk  |   },
+2|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+2|helpdesk  | }
+2|helpdesk  | 2025-09-07T13:05:09: 1:05:09 PM [express] POST /api/tickets 400 in 18ms :: {"error":"Invalid ticket data"}
+3|helpdesk  | 2025-09-07T13:05:11: Get tickets error: ErrorEvent {
+3|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+3|helpdesk  |     _events: [Object: null prototype] {
+3|helpdesk  |       error: [Function],
+3|helpdesk  |       message: [Function],
+3|helpdesk  |       close: [Function],
+3|helpdesk  |       open: [Function]
+3|helpdesk  |     },
+3|helpdesk  |     _eventsCount: 4,
+3|helpdesk  |     _maxListeners: undefined,
+3|helpdesk  |     _binaryType: 'arraybuffer',
+3|helpdesk  |     _closeCode: 1006,
+3|helpdesk  |     _closeFrameReceived: false,
+3|helpdesk  |     _closeFrameSent: false,
+3|helpdesk  |     _closeMessage: <Buffer >,
+3|helpdesk  |     _closeTimer: null,
+3|helpdesk  |     _errorEmitted: true,
+3|helpdesk  |     _extensions: {},
+3|helpdesk  |     _paused: false,
+3|helpdesk  |     _protocol: '',
+3|helpdesk  |     _readyState: 3,
+3|helpdesk  |     _receiver: null,
+3|helpdesk  |     _sender: null,
+3|helpdesk  |     _socket: null,
+3|helpdesk  |     _bufferedAmount: 0,
+3|helpdesk  |     _isServer: false,
+3|helpdesk  |     _redirects: 0,
+3|helpdesk  |     _autoPong: true,
+3|helpdesk  |     _url: 'wss://localhost/v2',
+3|helpdesk  |     _req: null,
+3|helpdesk  |     [Symbol(shapeMode)]: false,
+3|helpdesk  |     [Symbol(kCapture)]: false
+3|helpdesk  |   },
+3|helpdesk  |   [Symbol(kType)]: 'error',
+3|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+3|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+3|helpdesk  |     errno: -111,
+3|helpdesk  |     code: 'ECONNREFUSED',
+3|helpdesk  |     syscall: 'connect',
+3|helpdesk  |     address: '127.0.0.1',
+3|helpdesk  |     port: 443
+3|helpdesk  |   },
+3|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+3|helpdesk  | }
+3|helpdesk  | 2025-09-07T13:05:11: 1:05:11 PM [express] GET /api/tickets 500 in 11ms :: {"error":"Internal server error"}
+0|helpdesk  | 2025-09-07T13:05:26: Get tickets error: ErrorEvent {
+0|helpdesk  |   [Symbol(kTarget)]: WebSocket {
+0|helpdesk  |     _events: [Object: null prototype] {
+0|helpdesk  |       error: [Function],
+0|helpdesk  |       message: [Function],
+0|helpdesk  |       close: [Function],
+0|helpdesk  |       open: [Function]
+0|helpdesk  |     },
+0|helpdesk  |     _eventsCount: 4,
+0|helpdesk  |     _maxListeners: undefined,
+0|helpdesk  |     _binaryType: 'arraybuffer',
+0|helpdesk  |     _closeCode: 1006,
+0|helpdesk  |     _closeFrameReceived: false,
+0|helpdesk  |     _closeFrameSent: false,
+0|helpdesk  |     _closeMessage: <Buffer >,
+0|helpdesk  |     _closeTimer: null,
+0|helpdesk  |     _errorEmitted: true,
+0|helpdesk  |     _extensions: {},
+0|helpdesk  |     _paused: false,
+0|helpdesk  |     _protocol: '',
+0|helpdesk  |     _readyState: 3,
+0|helpdesk  |     _receiver: null,
+0|helpdesk  |     _sender: null,
+0|helpdesk  |     _socket: null,
+0|helpdesk  |     _bufferedAmount: 0,
+0|helpdesk  |     _isServer: false,
+0|helpdesk  |     _redirects: 0,
+0|helpdesk  |     _autoPong: true,
+0|helpdesk  |     _url: 'wss://localhost/v2',
+0|helpdesk  |     _req: null,
+0|helpdesk  |     [Symbol(shapeMode)]: false,
+0|helpdesk  |     [Symbol(kCapture)]: false
+0|helpdesk  |   },
+0|helpdesk  |   [Symbol(kType)]: 'error',
+0|helpdesk  |   [Symbol(kError)]: Error: connect ECONNREFUSED 127.0.0.1:443
+0|helpdesk  |       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+0|helpdesk  |     errno: -111,
+0|helpdesk  |     code: 'ECONNREFUSED',
+0|helpdesk  |     syscall: 'connect',
+0|helpdesk  |     address: '127.0.0.1',
+0|helpdesk  |     port: 443
+0|helpdesk  |   },
+0|helpdesk  |   [Symbol(kMessage)]: 'connect ECONNREFUSED 127.0.0.1:443'
+0|helpdesk  | }
+0|helpdesk  | 2025-09-07T13:05:26: 1:05:26 PM [express] GET /api/tickets 500 in 24ms :: {"error":"Internal server error"}
