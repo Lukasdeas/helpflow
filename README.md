@@ -297,7 +297,7 @@ sudo nano /etc/nginx/sites-available/helpdesk
 ```nginx
 server {
     listen 80;
-    server_name localhost; //Colocar o IP do servidor ou seu Dominio
+    server_name localhost; # Colocar o IP do servidor ou seu Dominio
 
     client_max_body_size 50M;
 
