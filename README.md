@@ -281,9 +281,15 @@ module.exports = {
 ### 2. Iniciar Aplicação
 ```bash
 cd /home/helpdesk/app/helpflow
-pm2 start ecosystem.config.cjs
+pm2 start ecosystem.config.cjs --env production
 pm2 save
 pm2 startup
+
+Execute o comando gerado
+
+pm2 save
+pm2 logs helpdesk
+
 ```
 
 ## 🌐 Configuração do Nginx
