@@ -17,7 +17,7 @@ async function startServer() {
   // 2. DEPOIS: Importar e inicializar tudo
   const express = (await import("express")).default;
   const { registerRoutes } = await import("./routes");
-  const { setupVite, serveStatic, log } = await import("./vite");
+  const { log, serveStatic } = await import("./static");
 
   const app = express();
   app.use(express.json());
@@ -67,6 +67,7 @@ async function startServer() {
   // setting up all the other routes so the catch-all route
   // doesn't interfere with the other routes
   if (app.get("env") === "development") {
+    const { setupVite } = await import("./vite");
     await setupVite(app, server);
   } else {
     serveStatic(app);

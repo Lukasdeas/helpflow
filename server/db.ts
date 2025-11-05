@@ -10,8 +10,13 @@ export const db = drizzle(sqlite, { schema });
 
 // Criar tabelas se não existirem
 try {
-  // Habilitar foreign keys
+  // Otimizações para produção SQLite
   sqlite.exec('PRAGMA foreign_keys = ON;');
+  sqlite.exec('PRAGMA journal_mode = WAL;'); // Write-Ahead Logging para melhor performance
+  sqlite.exec('PRAGMA synchronous = NORMAL;'); // Balance entre segurança e velocidade
+  sqlite.exec('PRAGMA cache_size = -64000;'); // Cache de 64MB
+  sqlite.exec('PRAGMA temp_store = MEMORY;'); // Tabelas temporárias na memória
+  sqlite.exec('PRAGMA busy_timeout = 5000;'); // Aguardar 5s se banco estiver bloqueado
   
   // Criar tabelas
   sqlite.exec(`
