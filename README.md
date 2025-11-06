@@ -97,7 +97,6 @@ cd /home/helpdesk/app
 ### 3. Instalar Dependências
 ```bash
 cd /home/helpdesk/app/helpflow
-npm install --production
 npm install
 ```
 
@@ -281,7 +280,7 @@ module.exports = {
 ### 2. Iniciar Aplicação
 ```bash
 cd /home/helpdesk/app/helpflow
-pm2 start ecosystem.config.cjs --env production
+pm2 start ecosystem.config.cjs
 pm2 save
 pm2 startup
 
