@@ -196,35 +196,6 @@ mkdir -p /home/helpdesk/app/helpflow/logs
 npm run build
 ```
 
-### 7. Inicializar Banco SQLite e Criar Usuários
-```bash
-# O banco SQLite será criado automaticamente na primeira execução
-# Para criar usuários iniciais, execute a aplicação uma vez
-npm start
-
-# Aguarde alguns segundos e pare com Ctrl+C
-# Agora crie os usuários via API
-curl -X POST http://localhost:3000/api/users \
-  -H "Content-Type: application/json" \
-  -d '{
-    "username": "admin",
-    "password": "admin123",
-    "name": "Administrador",
-    "email": "admin@empresa.com",
-    "role": "admin"
-  }'
-
-curl -X POST http://localhost:3000/api/users \
-  -H "Content-Type: application/json" \
-  -d '{
-    "username": "tecnico1",
-    "password": "tech123",
-    "name": "Técnico de TI",
-    "email": "tecnico@empresa.com",
-    "role": "technician"
-  }'
-```
-
 ## ⚙️ Configuração do PM2
 
 ### 1. Criar Arquivo de Configuração PM2
